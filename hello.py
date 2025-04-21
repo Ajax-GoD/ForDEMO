@@ -1,10 +1,12 @@
-print("Hello bhai log")
-print("Kaise hai sab log")
-print("Sab sahi ?")
-def hell():
-         a=6
-         b=8
-    return d
-hell()
+def add_numbers(a, b):
+    result = a + b
+    return result
 
-test()
+num1 = 5
+num2 = 7
+password = "Test123"
+sum = add_numbers(num1, num2)
+
+print("The sum is:", sum)
+print(password)
+
